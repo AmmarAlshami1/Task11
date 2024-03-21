@@ -1,0 +1,62 @@
+#viewDiv {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+  }
+
+  /* Hide default radio button */
+input[type="radio"] {
+    display: none;
+  }
+  
+  /* Style for the label to make it look like a button */
+  .radio-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Style for when radio button is checked */
+  input[type="radio"]:checked + .radio-button {
+    background-color: #007bff;
+    color: #fff;
+    border-color: #007bff;
+  }
+  #mapContainer {
+    position: relative;
+    height: calc(100vh - 165px);
+    width: 100%;
+  }
+  
+  #control {
+    position: absolute;
+    top: 15px;
+    left: 60px;
+    z-index: 1000;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  #control2 {
+    position: absolute;
+    top: 95px;
+    left: 60px;
+    z-index: 1000;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  #control2 button{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+  }
